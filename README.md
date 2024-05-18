@@ -39,7 +39,7 @@ WRP (WebRTC Relay Point) is a Node.js package designed to facilitate WebRTC conn
 ## Installation
 
 ```sh
-npm install wrp
+npm install
 ```
 
 ## Usage
