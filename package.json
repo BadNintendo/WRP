@@ -2,11 +2,11 @@
   "name": "wrp",
   "version": "1.0.0",
   "description": "WRP (WebRTC Relay Point) - Comprehensive Node.js module for WebRTC connections",
-  "main": "src/index.js",
+  "main": "src/webrtc-server.js",
   "scripts": {
     "test": "mocha tests/**/*.js",
     "lint": "eslint src/**/*.js",
-    "start": "node src/index.js",
+    "start": "node src/webrtc-server.js",
     "build": "babel src -d lib"
   },
   "repository": {
