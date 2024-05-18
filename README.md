@@ -178,4 +178,3 @@ async function getUserMediaVideoOnly() {
 
 WRP (WebRTC Relay Point) provides a robust and secure solution for managing WebRTC connections in Node.js applications. By simplifying the complexities of WebRTC, it allows developers to focus on building rich, real-time communication features.
 
-```
