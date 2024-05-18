@@ -1,0 +1,49 @@
+{
+  "name": "wrp",
+  "version": "1.0.0",
+  "description": "WRP (WebRTC Relay Point) - Comprehensive Node.js module for WebRTC connections",
+  "main": "src/webrtc-server.js",
+  "scripts": {
+    "start": "node src/webrtc-server.js",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BadNintendo/WRP.git"
+  },
+  "keywords": [
+    "webrtc",
+    "rtc",
+    "data-channel",
+    "peer-connection",
+    "media",
+    "node",
+    "nodejs",
+    "real-time-communication"
+  ],
+  "author": "BadNintendo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BadNintendo/WRP/issues"
+  },
+  "homepage": "https://github.com/BadNintendo/WRP#readme",
+  "dependencies": {
+    "uuid": "^8.3.2",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "chai": "^4.2.0",
+    "eslint": "^7.14.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
